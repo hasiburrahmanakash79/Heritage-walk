@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 const Hero = () => {
 
-    const interval = 3000 
+    const interval = 2500 
 
     const images = [
         'https://i.ibb.co/Rpx5Kqd/banner1.jpg',
@@ -29,7 +29,7 @@ const Hero = () => {
   }, [currentIndex, interval]); // Re-run effect when currentIndex or interval changes
 
   return (
-    <div className="relative w-full h-[500px] overflow-hidden">
+    <div className="relative w-full h-[550px] overflow-hidden">
       {images.map((image, index) => (
         <div
           key={index}

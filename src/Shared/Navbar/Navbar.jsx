@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
-import { FaAngleDown, FaEarthAmericas, FaSearchengin } from "react-icons/fa6";
+import { FaAngleDown, FaEarthAmericas } from "react-icons/fa6";
+import { FaSearch } from "react-icons/fa";
 
 let countries = [
   {
@@ -19,25 +20,39 @@ const Navbar = () => {
   const NavItems = (
     <>
       <li>
-        <Link className="hover:underline" to="/">Home</Link>
+        <Link className="hover:underline" to="/">
+          Home
+        </Link>
       </li>
       <li>
-        <Link className="hover:underline" to="/about">About us</Link>
+        <Link className="hover:underline" to="/about">
+          About us
+        </Link>
       </li>
       <li>
-        <Link className="hover:underline" to="/olympiad">Olympiad</Link>
+        <Link className="hover:underline" to="/olympiad">
+          Olympiad
+        </Link>
       </li>
       <li>
-        <Link className="hover:underline" to="/blog">Blog</Link>
+        <Link className="hover:underline" to="/blog">
+          Blog
+        </Link>
       </li>
       <li>
-        <Link className="hover:underline" to="/about">About us</Link>
+        <Link className="hover:underline" to="/about">
+          About us
+        </Link>
       </li>
       <li>
-        <Link className="hover:underline" to="/olympiad">Olympiad</Link>
+        <Link className="hover:underline" to="/olympiad">
+          Olympiad
+        </Link>
       </li>
       <li>
-        <Link className="hover:underline" to="/blog">Blog</Link>
+        <Link className="hover:underline" to="/blog">
+          Blog
+        </Link>
       </li>
     </>
   );
@@ -59,8 +74,7 @@ const Navbar = () => {
                 >
                   <span className="flex items-center gap-1">
                     <FaEarthAmericas />
-                    <FaAngleDown  className="text-xs"/>
-
+                    <FaAngleDown className="text-xs" />
                   </span>
                 </Menu.Button>
                 <Transition
@@ -109,7 +123,7 @@ const Navbar = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-blue-600 rounded-box w-52"
+                className="menu menu-compact dropdown-content z-50 mt-3 p-2 shadow bg-white rounded-md w-52"
               >
                 {NavItems}
               </ul>
@@ -122,7 +136,25 @@ const Navbar = () => {
             </span>
           </div>
           <div className="text-end">
-            <h1>search</h1>
+            <div className="hidden md:flex items-center gap-2 border-b">
+              <input
+                type="text"
+                className="p-1 rounded-none"
+                placeholder="Search"
+              />
+              <FaSearch className="font-thin" />
+            </div>
+            <div className="dropdown  md:hidden">
+              <label tabIndex={0} className="btn btn-ghost">
+                <FaSearch />
+              </label>
+              <ul
+                tabIndex={0}
+                className="menu menu-compact dropdown-content z-50 p-4 shadow rounded-md bg-red-600 -ml-40"
+              >
+                <input type="text" className="input input-bordered" />
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -131,7 +163,11 @@ const Navbar = () => {
           {NavItems}
         </ul>
       </div>
-      <div className="bg-black"><h1 className="text-xl font-semibold text-center text-white p-2">Lorem ipsum dolor sit, amet consectetur</h1></div>
+      <div className="bg-black">
+        <h1 className="text-xl font-semibold text-center text-white p-2">
+          Lorem ipsum dolor sit, amet consectetur
+        </h1>
+      </div>
     </div>
   );
 };
