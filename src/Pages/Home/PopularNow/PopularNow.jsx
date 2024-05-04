@@ -74,6 +74,128 @@ const PopularNow = () => {
           </Card>
         </div>
       </div>
+      <div className="md:grid grid-cols-3 justify-center items-center gap-10 p-10">
+          <Card className=" overflow-hidden text-center text-red-500">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img
+                src="https://cdn.britannica.com/97/189797-050-1FC0041B/Night-view-Dhaka-Bangladesh.jpg"
+                alt="ui/ux review check"
+              />
+            </CardHeader>
+            <CardBody>
+              <Typography variant="h4">
+                UI/UX Review Check
+              </Typography>
+              
+            </CardBody>
+            
+          </Card>
+          <Card className=" my-4 overflow-hidden text-center text-red-500">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img
+                src="https://cdn.britannica.com/97/189797-050-1FC0041B/Night-view-Dhaka-Bangladesh.jpg"
+                alt="ui/ux review check"
+              />
+            </CardHeader>
+            <CardBody>
+              <Typography variant="h4">
+                UI/UX Review Check
+              </Typography>
+              
+            </CardBody>
+            
+          </Card>
+          <Card className=" overflow-hidden text-center text-red-500">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img
+                src="https://cdn.britannica.com/97/189797-050-1FC0041B/Night-view-Dhaka-Bangladesh.jpg"
+                alt="ui/ux review check"
+              />
+            </CardHeader>
+            <CardBody>
+              <Typography variant="h4">
+                UI/UX Review Check
+              </Typography>
+              
+            </CardBody>
+            
+          </Card>
+          <Card className=" overflow-hidden text-center text-red-500">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img
+                src="https://cdn.britannica.com/97/189797-050-1FC0041B/Night-view-Dhaka-Bangladesh.jpg"
+                alt="ui/ux review check"
+              />
+            </CardHeader>
+            <CardBody>
+              <Typography variant="h4">
+                UI/UX Review Check
+              </Typography>
+              
+            </CardBody>
+            
+          </Card>
+          <Card className=" my-4 overflow-hidden text-center text-red-500">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img
+                src="https://cdn.britannica.com/97/189797-050-1FC0041B/Night-view-Dhaka-Bangladesh.jpg"
+                alt="ui/ux review check"
+              />
+            </CardHeader>
+            <CardBody>
+              <Typography variant="h4">
+                UI/UX Review Check
+              </Typography>
+              
+            </CardBody>
+            
+          </Card>
+          <Card className=" overflow-hidden text-center text-red-500">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <img
+                src="https://cdn.britannica.com/97/189797-050-1FC0041B/Night-view-Dhaka-Bangladesh.jpg"
+                alt="ui/ux review check"
+              />
+            </CardHeader>
+            <CardBody>
+              <Typography variant="h4">
+                UI/UX Review Check
+              </Typography>
+              
+            </CardBody>
+            
+          </Card>
+        </div>
     </div>
   );
 };
