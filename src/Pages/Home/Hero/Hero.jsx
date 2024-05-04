@@ -5,9 +5,9 @@ const Hero = () => {
     const interval = 2500 
 
     const images = [
-        'https://i.ibb.co/Rpx5Kqd/banner1.jpg',
-        'https://i.ibb.co/LSSJyxS/banner6.jpg',
-        'https://i.ibb.co/cxzhhG5/banner5.jpg',
+        'https://images.unsplash.com/photo-1624395149011-470cf6f6ec02?q=80&w=2851&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'https://images.unsplash.com/photo-1427694012323-fb5e8b0c165b?q=80&w=2978&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'https://images.unsplash.com/photo-1624395148974-f929045c9093?q=80&w=2734&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
       ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
