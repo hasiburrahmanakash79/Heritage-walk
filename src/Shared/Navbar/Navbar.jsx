@@ -3,6 +3,7 @@ import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 import { FaAngleDown, FaEarthAmericas } from "react-icons/fa6";
 import { FaSearch } from "react-icons/fa";
+import './Navbar.css'
 
 let countries = [
   {
@@ -25,10 +26,55 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <Link className="hover:underline font-semibold" to="/about">
-          About us
+        <Link className="hover:underline font-semibold" to="/">
+          About
         </Link>
       </li>
+      {/* <li>
+        <div className="dropdown dropdown-hover">
+          <div
+            tabIndex={0}
+            role="button"
+            className="hover:underline font-semibold"
+          >
+            <span className="flex items-center gap-1">
+              About us
+              <FaAngleDown className="text-xs" />
+            </span>
+          </div>
+          <div
+            tabIndex={0}
+            className="dropdown-content z-[1] p-2 shadow bg-base-100 w-full"
+          >
+            <div className="grid grid-cols-6 gap-5">
+              <div className="col-span-2">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Deleniti vitae voluptate ducimus numquam nisi eveniet autem.
+                  Architecto odit adipisci et!
+                </p>
+              </div>
+              <div className="col-span-4">
+              <div className="grid grid-cols-3 gap-10">
+                <Link>Item 1</Link>
+                <Link>Item 2</Link>
+                <Link>Item 1</Link>
+                <Link>Item 2</Link>
+                <Link>Item 1</Link>
+                <Link>Item 2</Link>
+                <Link>Item 1</Link>
+                <Link>Item 2</Link>
+                <Link>Item 1</Link>
+                <Link>Item 2</Link>
+                <Link>Item 1</Link>
+                <Link>Item 2</Link>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li> */}
       <li>
         <Link className="hover:underline font-semibold" to="/booking">
           Booking Tickets

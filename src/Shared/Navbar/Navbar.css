@@ -1,0 +1,39 @@
+.dropdown-content {/* Position the dropdown relative to its container */
+    top: 100%; /* Position the dropdown below the trigger element */
+    left: 0;
+    width: 80vw; /* Full width of the parent container */
+    background-color: white; /* Background color of the dropdown */
+    border: 1px solid #ccc; /* Example border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Example box shadow */
+    z-index: 100; /* Ensure it's above other content */
+    display: none; /* Initially hide the dropdown */
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block; /* Display the dropdown when hovering over the trigger */
+  }
+  
+  /* Optional styles for the dropdown content items */
+  .dropdown-content h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .dropdown-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f0f0f0;
+  }
+  
