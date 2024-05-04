@@ -5,6 +5,7 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -33,17 +34,62 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="p-7">
+      <div className="py-7">
         <p className="text-center pb-3">Affiliates and Content Partners</p>
         <div className="flex justify-center items-center gap-7">
-            <img className="w-14" src="https://www.bdosn.org//images/2019/03/21/bdosn-logo.jpg" alt="" />
-            <img className="w-14" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="" />
-            <img className="w-14" src="https://logos-world.net/wp-content/uploads/2020/09/Mastercard-Logo.png" alt="" />
-            <img className="w-14" src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Pathao-logo.jpg" alt="" />
-            <img className="w-14" src="https://upload.wikimedia.org/wikipedia/commons/5/58/Uber_logo_2018.svg" alt="" />
-            <img className="w-14" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PayPal_logo.svg/1024px-PayPal_logo.svg.png" alt="" />
-            <img className="w-24" src="https://cdn.worldvectorlogo.com/logos/foodpanda-logo.svg" alt="" />
+          <img
+            className="w-14"
+            src="https://www.bdosn.org//images/2019/03/21/bdosn-logo.jpg"
+            alt=""
+          />
+          <img
+            className="w-14"
+            src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg"
+            alt=""
+          />
+          <img
+            className="w-14"
+            src="https://logos-world.net/wp-content/uploads/2020/09/Mastercard-Logo.png"
+            alt=""
+          />
+          <img
+            className="w-14"
+            src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Pathao-logo.jpg"
+            alt=""
+          />
+          <img
+            className="w-14"
+            src="https://upload.wikimedia.org/wikipedia/commons/5/58/Uber_logo_2018.svg"
+            alt=""
+          />
+          <img
+            className="w-14"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PayPal_logo.svg/1024px-PayPal_logo.svg.png"
+            alt=""
+          />
+          <img
+            className="w-24"
+            src="https://cdn.worldvectorlogo.com/logos/foodpanda-logo.svg"
+            alt=""
+          />
         </div>
+      </div>
+      <p className="text-[10px] text-center pb-7">
+        Pathau & Partners is registered in Bangladesh under no. 723828923.
+        Registered Office: Pathau & Partners, Mohakhali DOHS, Dhaka, Bangladesh,
+        SE1 0LL. <br />
+        Dhaka & Partners is the business growth and destination agency for
+        DHaka. We are a social enterprise, combining purpose with commercial
+        rigour. We are funded by grants, partners and our portfolio of venture
+        businesses.
+      </p>
+      <div className="bg-blue-gray-50 flex justify-evenly items-center p-7">
+        <Link to="/" className="hover:underline">Contact</Link>
+        <Link to="/" className="hover:underline">About Us</Link>
+        <Link to="/" className="hover:underline">Advertise with us</Link>
+        <Link to="/" className="hover:underline">Sustainability</Link>
+        <Link to="/" className="hover:underline">Accessibility</Link>
+        <Link to="/" className="hover:underline">Terms & Conditions</Link>
       </div>
     </div>
   );
