@@ -20,38 +20,38 @@ const Navbar = () => {
   const NavItems = (
     <>
       <li>
-        <Link className="hover:underline" to="/">
+        <Link className="hover:underline font-semibold" to="/">
           Home
         </Link>
       </li>
       <li>
-        <Link className="hover:underline" to="/about">
+        <Link className="hover:underline font-semibold" to="/about">
           About us
         </Link>
       </li>
       <li>
-        <Link className="hover:underline" to="/olympiad">
-          Olympiad
+        <Link className="hover:underline font-semibold" to="/booking">
+          Booking Tickets
         </Link>
       </li>
       <li>
-        <Link className="hover:underline" to="/blog">
-          Blog
+        <Link className="hover:underline font-semibold" to="/thing">
+          Things to do
         </Link>
       </li>
       <li>
-        <Link className="hover:underline" to="/about">
-          About us
+        <Link className="hover:underline font-semibold" to="/traveller">
+          Traveller Information
         </Link>
       </li>
       <li>
-        <Link className="hover:underline" to="/olympiad">
-          Olympiad
+        <Link className="hover:underline font-semibold" to="/accommodation">
+          Accommodation
         </Link>
       </li>
       <li>
-        <Link className="hover:underline" to="/blog">
-          Blog
+        <Link className="hover:underline font-semibold" to="/contact">
+          Contact
         </Link>
       </li>
     </>
@@ -60,7 +60,7 @@ const Navbar = () => {
   return (
     <div className="">
       <div className="border-b-2 p-3">
-        <div className="flex justify-between items-center container mx-auto">
+        <div className="grid grid-cols-3 justify-between items-center container mx-auto">
           <div>
             <div className="hidden md:block">
               <Menu
@@ -135,8 +135,8 @@ const Navbar = () => {
               <p>Dhaka, Bangladesh</p>
             </span>
           </div>
-          <div className="text-end">
-            <div className="hidden md:flex items-center gap-2 border-b">
+          <div className="">
+            <div className="hidden md:flex justify-end items-center gap-2">
               <input
                 type="text"
                 className="p-1 rounded-none"
