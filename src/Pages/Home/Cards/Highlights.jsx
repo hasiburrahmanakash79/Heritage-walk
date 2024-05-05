@@ -1,14 +1,14 @@
 import {
-    Card,
-    CardHeader,
-    CardBody,
-    Typography,
-  } from "@material-tailwind/react";
+  Card,
+  CardHeader,
+  CardBody,
+  Typography,
+} from "@material-tailwind/react";
 
 const Highlights = () => {
-    return (
-        <div className=" p-10">
-    <h1 className="text-4xl font-bold mb-4">Dhaka highlights</h1>
+  return (
+    <div className=" p-10">
+      <h1 className="text-4xl font-bold mb-4">Dhaka highlights</h1>
       <div className="md:grid grid-cols-3 justify-center items-center gap-10">
         <Card className="overflow-hidden text-center text-red-500 border hover:shadow-xl">
           <CardHeader
@@ -72,7 +72,7 @@ const Highlights = () => {
         </Card>
       </div>
     </div>
-    );
+  );
 };
 
 export default Highlights;
