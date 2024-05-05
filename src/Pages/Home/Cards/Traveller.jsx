@@ -15,7 +15,7 @@ const Traveller = () => {
               <div className="relative h-44 overflow-hidden">
                 {/* Set a fixed height for the image container */}
                 <img
-                  src="https://cdn.britannica.com/97/189797-050-1FC0041B/Night-view-Dhaka-Bangladesh.jpg"
+                  src="https://www.re-thinkingthefuture.com/city-and-architecture/a3793-walking-through-the-streets-of-dhaka/attachment/copyright-source-http-www-theindependentbd-com/"
                   alt="UI/UX Review Check"
                   className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                 />
