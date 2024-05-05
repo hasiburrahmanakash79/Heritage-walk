@@ -9,7 +9,7 @@ const Subscribtion = () => {
           ipsa? Harum, ipsam esse.
         </p>
         <div className="col-span-1 w-full ">
-          <button className="bg-red-600 w-full p-3 rounded text-white text-lg font-semibold">
+          <button className="bg-red-600 hover:bg-red-800 hover:scale-105 duration-300 w-full p-3 rounded text-white text-lg font-semibold">
             Subscribe
           </button>
         </div>

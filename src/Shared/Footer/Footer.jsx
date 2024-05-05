@@ -1,3 +1,4 @@
+
 import {
   FaFacebook,
   FaInstagram,
@@ -8,6 +9,8 @@ import {
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+ 
+
   return (
     <div>
       <div className="border-b border-t">
@@ -25,7 +28,7 @@ const Footer = () => {
           <div>
             <div className="flex justify-end items-center gap-5">
               <h1>Follow Us: </h1>
-              <FaFacebook className="text-3xl hover:text-blue-700" />
+              <FaFacebook className="text-3xl hover:text-blue-700 " />
               <FaInstagram className="text-3xl hover:text-pink-500" />
               <FaYoutube className="text-3xl hover:text-red-600" />
               <FaTwitter className="text-3xl hover:text-blue-700" />
@@ -84,12 +87,24 @@ const Footer = () => {
         businesses.
       </p>
       <div className="bg-blue-gray-50 flex justify-evenly items-center p-7">
-        <Link to="/" className="hover:underline">Contact</Link>
-        <Link to="/" className="hover:underline">About Us</Link>
-        <Link to="/" className="hover:underline">Advertise with us</Link>
-        <Link to="/" className="hover:underline">Sustainability</Link>
-        <Link to="/" className="hover:underline">Accessibility</Link>
-        <Link to="/" className="hover:underline">Terms & Conditions</Link>
+        <Link to="/" className="hover:underline">
+          Contact
+        </Link>
+        <Link to="/" className="hover:underline">
+          About Us
+        </Link>
+        <Link to="/" className="hover:underline">
+          Advertise with us
+        </Link>
+        <Link to="/" className="hover:underline">
+          Sustainability
+        </Link>
+        <Link to="/" className="hover:underline">
+          Accessibility
+        </Link>
+        <Link to="/" className="hover:underline">
+          Terms & Conditions
+        </Link>
       </div>
     </div>
   );

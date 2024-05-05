@@ -8,7 +8,7 @@ import {
 const PopularNow = () => {
   return (
     <div>
-      <div className="bg-gradient-to-r from-indigo-500 from-20% via-sky-700 via-50% to-red-500 to-90% p-10 text-white">
+      <div className="bg-gradient-to-r from-indigo-400 from-20% via-sky-700 via-50% to-red-500 to-90% p-10 text-white">
         <h1 className="text-4xl font-semibold mb-7">Popular now</h1>
         <div className="md:grid grid-cols-3 justify-center items-center gap-10">
           <Card className="overflow-hidden text-center text-red-500 hover:shadow-xl">
