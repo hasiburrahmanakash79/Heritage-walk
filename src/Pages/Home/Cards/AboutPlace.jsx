@@ -8,7 +8,7 @@ import {
 const AboutPlace = () => {
     return (
         <div className=" p-10">
-      <h1 className="text-4xl font-bold mb-4">Dhaka highlights</h1>
+      <h1 className="text-4xl font-bold mb-4">Whats on in Dhaka</h1>
       <div className="md:grid grid-cols-3 justify-center items-center gap-10">
         <Card className="overflow-hidden text-center text-red-500 border hover:shadow-xl">
           <CardHeader

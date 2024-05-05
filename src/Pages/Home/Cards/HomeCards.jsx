@@ -1,3 +1,4 @@
+import AboutPlace from './AboutPlace';
 import Highlights from './Highlights';
 import WeeklyCard from './WeeklyCard';
 
@@ -6,6 +7,7 @@ const HomeCards = () => {
         <div>
             <WeeklyCard/>
             <Highlights/>
+            <AboutPlace/>
             
         </div>
     );
