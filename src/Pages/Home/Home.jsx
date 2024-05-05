@@ -1,3 +1,4 @@
+import HomeCards from "./Cards/HomeCards";
 import Hero from "./Hero/Hero";
 import PopularNow from "./PopularNow/PopularNow";
 
@@ -7,6 +8,7 @@ const Home = () => {
             <Hero/>
             <div className="w-9/12 mx-auto my-7">
                 <PopularNow/>
+                <HomeCards/>
             </div>
             
         </div>
