@@ -210,7 +210,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="bg-black">
-        <h1 className="text-xl font-semibold text-center text-white p-2">
+        <h1 className="md:text-xl text-xs font-semibold text-center text-white p-2">
           Lorem ipsum dolor sit, amet consectetur
         </h1>
       </div>

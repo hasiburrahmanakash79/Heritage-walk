@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
       <div className="py-7 px-3">
         <p className="text-center pb-3">Affiliates and Content Partners</p>
-        <div className="grid md:grid-cols-7 grid-cols-3 place-items-center md:w-2/3 mx-auto gap-7">
+        <div className="grid md:grid-cols-6 grid-cols-3 place-items-center md:w-2/3 mx-auto gap-7">
           <img
             className="md:w-14 w-8"
             src="https://www.bdosn.org//images/2019/03/21/bdosn-logo.jpg"
@@ -68,11 +68,6 @@ const Footer = () => {
           <img
             className="md:w-14 w-8"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PayPal_logo.svg/1024px-PayPal_logo.svg.png"
-            alt=""
-          />
-          <img
-            className="md:w-24 w-14"
-            src="https://cdn.worldvectorlogo.com/logos/foodpanda-logo.svg"
             alt=""
           />
         </div>
