@@ -106,7 +106,7 @@ const Navbar = () => {
   return (
     <div className="">
       <div className="border-b-2 p-3">
-        <div className="flex justify-between items-center container mx-auto">
+        <div className="grid grid-cols-3 justify-between items-center container mx-auto">
           <div>
             <div className="hidden md:block">
               <Menu
@@ -182,7 +182,7 @@ const Navbar = () => {
             </span>
           </div>
           <div className="">
-            <div className="hidden md:flex justify-end items-center gap-2">
+            <div className="hidden md:flex justify-end items-end gap-2">
               <input
                 type="text"
                 className="p-1 rounded-none"
@@ -190,8 +190,8 @@ const Navbar = () => {
               />
               <FaSearch className="font-thin" />
             </div>
-            <div className="dropdown  md:hidden">
-              <label tabIndex={0} className="btn btn-ghost">
+            <div className="dropdown flex justify-end items-center md:hidden">
+              <label tabIndex={0} className="">
                 <FaSearch />
               </label>
               {/* <ul
