@@ -29,7 +29,7 @@ const Hero = () => {
   }, [currentIndex, interval]); // Re-run effect when currentIndex or interval changes
 
   return (
-    <div className="relative w-full h-[550px] overflow-hidden">
+    <div className="relative w-full md:h-[550px] h-[330px] overflow-hidden">
       {images.map((image, index) => (
         <div
           key={index}

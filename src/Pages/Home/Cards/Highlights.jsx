@@ -7,8 +7,8 @@ import {
 
 const Highlights = () => {
   return (
-    <div className=" p-10">
-      <h1 className="text-4xl font-bold mb-4">Dhaka highlights</h1>
+    <div className="md:p-10">
+      <h1 className="md:text-4xl text-xl font-bold mb-4">Dhaka highlights</h1>
       <div className="md:grid grid-cols-3 justify-center items-center gap-10">
         <Card className="overflow-hidden text-center text-red-500 border hover:shadow-xl">
           <CardHeader
@@ -27,10 +27,10 @@ const Highlights = () => {
             </div>
           </CardHeader>
           <CardBody>
-            <Typography variant="h4">UI/UX Review Check</Typography>
+            <Typography className="md:text-xl font-semibold text-sm">UI/UX Review Check</Typography>
           </CardBody>
         </Card>
-        <Card className="overflow-hidden text-center text-red-500 border hover:shadow-xl">
+        <Card className="overflow-hidden text-center my-3 text-red-500 border hover:shadow-xl">
           <CardHeader
             floated={false}
             shadow={false}
@@ -47,7 +47,7 @@ const Highlights = () => {
             </div>
           </CardHeader>
           <CardBody>
-            <Typography variant="h4">UI/UX Review Check</Typography>
+            <Typography className="md:text-xl font-semibold text-sm">UI/UX Review Check</Typography>
           </CardBody>
         </Card>
         <Card className="overflow-hidden text-center text-red-500 border hover:shadow-xl">
@@ -67,7 +67,7 @@ const Highlights = () => {
             </div>
           </CardHeader>
           <CardBody>
-            <Typography variant="h4">UI/UX Review Check</Typography>
+            <Typography className="md:text-xl font-semibold text-sm">UI/UX Review Check</Typography>
           </CardBody>
         </Card>
       </div>

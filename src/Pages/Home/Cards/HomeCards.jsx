@@ -9,7 +9,7 @@ import WeeklyCard from './WeeklyCard';
 
 const HomeCards = () => {
     return (
-        <div>
+        <div className='space-y-5'>
             <WeeklyCard/>
             <Highlights/>
             <AboutPlace/>

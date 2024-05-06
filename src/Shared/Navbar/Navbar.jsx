@@ -106,7 +106,7 @@ const Navbar = () => {
   return (
     <div className="">
       <div className="border-b-2 p-3">
-        <div className="grid grid-cols-3 justify-between items-center container mx-auto">
+        <div className="flex justify-between items-center container mx-auto">
           <div>
             <div className="hidden md:block">
               <Menu
@@ -164,7 +164,7 @@ const Navbar = () => {
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png"
                   alt=""
-                  className="w-10"
+                  className="w-6"
                 />
               </label>
               <ul
@@ -177,8 +177,8 @@ const Navbar = () => {
           </div>
           <div className="">
             <span className="text-center">
-              <h1 className="text-5xl font-bold uppercase">Heritage Walk</h1>
-              <p>Dhaka, Bangladesh</p>
+              <h1 className="md:text-5xl font-bold uppercase">Heritage Walk</h1>
+              <p className="md:text-lg hidden md:block text-sm">Dhaka, Bangladesh</p>
             </span>
           </div>
           <div className="">

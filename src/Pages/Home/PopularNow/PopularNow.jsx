@@ -8,10 +8,10 @@ import {
 const PopularNow = () => {
   return (
     <div>
-      <div className="bg-gradient-to-r from-indigo-400 from-20% via-sky-700 via-50% to-red-500 to-90% p-10 text-white">
-        <h1 className="text-4xl font-semibold mb-7">Popular now</h1>
-        <div className="md:grid grid-cols-3 justify-center items-center gap-10">
-          <Card className="overflow-hidden text-center text-red-500 hover:shadow-xl">
+      <div className="bg-gradient-to-r from-indigo-400 from-20% via-sky-700 via-50% to-red-500 to-90% md:p-10 p-3 text-white">
+        <h1 className="md:text-4xl text-xl text-center font-semibold mb-7">Popular now</h1>
+        <div className="md:grid grid-cols-3 space-y-3 justify-center items-center gap-10">
+          <Card className="overflow-hidden md:-mb-3 text-center text-red-500 hover:shadow-xl">
             <CardHeader
               floated={false}
               shadow={false}
@@ -73,8 +73,8 @@ const PopularNow = () => {
           </Card>
         </div>
       </div>
-      <div className="md:grid grid-cols-3 justify-center items-center gap-10 p-10">
-        <Card className="overflow-hidden text-center text-red-500 hover:shadow-xl">
+      <div className="md:grid grid-cols-3 justify-center space-y-5 items-center gap-10 md:p-10 p-3 mt-5">
+        <Card className="overflow-hidden text-center md:-mb-5 text-red-500 hover:shadow-xl">
           <CardHeader
             floated={false}
             shadow={false}

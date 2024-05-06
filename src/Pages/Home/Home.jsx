@@ -6,8 +6,10 @@ const Home = () => {
     return (
         <div>
             <Hero/>
-            <div className="w-9/12 mx-auto my-7">
+                <div className="md:w-9/12 mx-auto my-7">
                 <PopularNow/>
+                </div>
+            <div className="md:w-9/12 p-3 mx-auto my-7">
                 <HomeCards/>
             </div>
             

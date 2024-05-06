@@ -13,21 +13,21 @@ const Footer = () => {
 
   return (
     <div>
-      <div className="border-b border-t">
-        <div className="container mx-auto grid grid-cols-2 items-center py-7">
+      <div className="border-b border-t p-3">
+        <div className="container mx-auto md:grid grid-cols-2 py-7">
           <div className="flex justify-between items-center gap-5">
             <div className="text-center">
-              <h1 className="text-5xl font-bold uppercase">Pathao</h1>
-              <p className="text-xl font-bold">Tour Partner</p>
+              <h1 className="md:text-5xl text-2xl font-bold uppercase">Pathao</h1>
+              <p className="md:text-xl text-sm font-bold">Tour Partner</p>
             </div>
             <div className="text-center">
-              <p className="text-xl font-bold">Sponsor by</p>
-              <h1 className="text-4xl font-bold uppercase">Jomuna bank plc</h1>
+              <p className="md:text-xl text-sm font-bold">Sponsor by</p>
+              <h1 className="md:text-4xl text-2xl font-bold uppercase">ubar</h1>
             </div>
           </div>
           <div>
-            <div className="flex justify-end items-center gap-5">
-              <h1>Follow Us: </h1>
+            <div className="flex md:justify-end justify-center items-center gap-5">
+              <h1 className="my-5">Follow Us: </h1>
               <FaFacebook className="text-3xl hover:text-blue-700 " />
               <FaInstagram className="text-3xl hover:text-pink-500" />
               <FaYoutube className="text-3xl hover:text-red-600" />
@@ -37,47 +37,47 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-7">
+      <div className="py-7 px-3">
         <p className="text-center pb-3">Affiliates and Content Partners</p>
-        <div className="flex justify-center items-center gap-7">
+        <div className="grid md:grid-cols-7 grid-cols-3 place-items-center md:w-2/3 mx-auto gap-7">
           <img
-            className="w-14"
+            className="md:w-14 w-8"
             src="https://www.bdosn.org//images/2019/03/21/bdosn-logo.jpg"
             alt=""
           />
           <img
-            className="w-14"
+            className="md:w-14 w-8"
             src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg"
             alt=""
           />
           <img
-            className="w-14"
+            className="md:w-14 w-8"
             src="https://logos-world.net/wp-content/uploads/2020/09/Mastercard-Logo.png"
             alt=""
           />
           <img
-            className="w-14"
+            className="md:w-14 w-8"
             src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Pathao-logo.jpg"
             alt=""
           />
           <img
-            className="w-14"
+            className="md:w-14 w-8"
             src="https://upload.wikimedia.org/wikipedia/commons/5/58/Uber_logo_2018.svg"
             alt=""
           />
           <img
-            className="w-14"
+            className="md:w-14 w-8"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PayPal_logo.svg/1024px-PayPal_logo.svg.png"
             alt=""
           />
           <img
-            className="w-24"
+            className="md:w-24 w-14"
             src="https://cdn.worldvectorlogo.com/logos/foodpanda-logo.svg"
             alt=""
           />
         </div>
       </div>
-      <p className="text-[10px] text-center pb-7">
+      <p className="text-[10px] text-center pb-7 px-3">
         Pathau & Partners is registered in Bangladesh under no. 723828923.
         Registered Office: Pathau & Partners, Mohakhali DOHS, Dhaka, Bangladesh,
         SE1 0LL. <br />
@@ -86,23 +86,23 @@ const Footer = () => {
         rigour. We are funded by grants, partners and our portfolio of venture
         businesses.
       </p>
-      <div className="bg-blue-gray-50 flex justify-evenly items-center p-7">
-        <Link to="/" className="hover:underline">
+      <div className="bg-blue-gray-50 grid md:grid-cols-6 grid-cols-3 place-items-center p-4">
+        <Link to="/" className="hover:underline p-3">
           Contact
         </Link>
-        <Link to="/" className="hover:underline">
+        <Link to="/" className="hover:underline p-3">
           About Us
         </Link>
-        <Link to="/" className="hover:underline">
+        <Link to="/" className="hover:underline p-3">
           Advertise with us
         </Link>
-        <Link to="/" className="hover:underline">
+        <Link to="/" className="hover:underline p-3">
           Sustainability
         </Link>
-        <Link to="/" className="hover:underline">
+        <Link to="/" className="hover:underline p-3">
           Accessibility
         </Link>
-        <Link to="/" className="hover:underline">
+        <Link to="/" className="hover:underline p-3">
           Terms & Conditions
         </Link>
       </div>
