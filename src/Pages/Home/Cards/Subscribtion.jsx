@@ -1,21 +1,21 @@
 const Subscribtion = () => {
   return (
-    <div className="p-10">
-      <div className="grid grid-cols-3 p-6 bg-blue-gray-50 gap-5 items-center rounded-md">
-        <p className="col-span-2">
+    <div className="md:p-10">
+      <div className="md:grid grid-cols-3 p-6 bg-blue-gray-50 gap-5 items-center rounded-md">
+        <p className="col-span-2 mb-3 md:text-lg text-xs">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
           error deleniti quod dolorem, quaerat tempora? Mollitia dolorem minus
           perspiciatis nesciunt velit ipsa! Aperiam ducimus autem similique
           ipsa? Harum, ipsam esse.
         </p>
         <div className="col-span-1 w-full ">
-          <button className="bg-red-600 hover:bg-red-800 hover:scale-105 duration-300 w-full p-3 rounded text-white text-lg font-semibold">
+          <button className="bg-red-600 hover:bg-red-800 hover:scale-105 duration-300 w-full p-3 rounded text-white md:text-lg text-xs font-semibold">
             Subscribe
           </button>
         </div>
       </div>
-      <div className="border-2 border-red-500 p-10 rounded-tl-3xl rounded-br-3xl mt-10">
-        <p>
+      <div className="border-2  border-red-500 md:p-10 p-3 rounded-tl-3xl rounded-br-3xl mt-10">
+        <p className="md:text-lg text-xs">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex magni
           sapiente accusamus labore voluptatibus voluptas obcaecati doloremque,
           repellat esse porro eius id commodi aperiam facilis ut mollitia

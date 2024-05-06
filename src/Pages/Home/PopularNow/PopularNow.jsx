@@ -28,7 +28,7 @@ const PopularNow = () => {
               </div>
             </CardHeader>
             <CardBody>
-              <Typography variant="h4">UI/UX Review Check</Typography>
+              <Typography className="md:text-xl font-semibold text-sm">UI/UX Review Check</Typography>
             </CardBody>
           </Card>
           <Card className="overflow-hidden text-center text-red-500 hover:shadow-xl">
@@ -48,7 +48,7 @@ const PopularNow = () => {
               </div>
             </CardHeader>
             <CardBody>
-              <Typography variant="h4">UI/UX Review Check</Typography>
+              <Typography className="md:text-xl font-semibold text-sm">UI/UX Review Check</Typography>
             </CardBody>
           </Card>
           <Card className="overflow-hidden text-center text-red-500 hover:shadow-xl">
@@ -68,7 +68,7 @@ const PopularNow = () => {
               </div>
             </CardHeader>
             <CardBody>
-              <Typography variant="h4">UI/UX Review Check</Typography>
+              <Typography className="md:text-xl font-semibold text-sm">UI/UX Review Check</Typography>
             </CardBody>
           </Card>
         </div>
@@ -91,7 +91,7 @@ const PopularNow = () => {
             </div>
           </CardHeader>
           <CardBody>
-            <Typography variant="h4">UI/UX Review Check</Typography>
+            <Typography className="md:text-xl font-semibold text-sm">UI/UX Review Check</Typography>
           </CardBody>
         </Card>
         <Card className="overflow-hidden text-center text-red-500 hover:shadow-xl">
@@ -111,7 +111,7 @@ const PopularNow = () => {
             </div>
           </CardHeader>
           <CardBody>
-            <Typography variant="h4">UI/UX Review Check</Typography>
+            <Typography className="md:text-xl font-semibold text-sm">UI/UX Review Check</Typography>
           </CardBody>
         </Card>
         <Card className="overflow-hidden text-center text-red-500 hover:shadow-xl">
@@ -131,7 +131,7 @@ const PopularNow = () => {
             </div>
           </CardHeader>
           <CardBody>
-            <Typography variant="h4">UI/UX Review Check</Typography>
+            <Typography className="md:text-xl font-semibold text-sm">UI/UX Review Check</Typography>
           </CardBody>
         </Card>
         <Card className="overflow-hidden text-center text-red-500 hover:shadow-xl">
@@ -151,7 +151,7 @@ const PopularNow = () => {
             </div>
           </CardHeader>
           <CardBody>
-            <Typography variant="h4">UI/UX Review Check</Typography>
+            <Typography className="md:text-xl font-semibold text-sm">UI/UX Review Check</Typography>
           </CardBody>
         </Card>
         <Card className="overflow-hidden text-center text-red-500 hover:shadow-xl">
@@ -171,7 +171,7 @@ const PopularNow = () => {
             </div>
           </CardHeader>
           <CardBody>
-            <Typography variant="h4">UI/UX Review Check</Typography>
+            <Typography className="md:text-xl font-semibold text-sm">UI/UX Review Check</Typography>
           </CardBody>
         </Card>
         <Card className="overflow-hidden text-center text-red-500 hover:shadow-xl">
@@ -191,7 +191,7 @@ const PopularNow = () => {
             </div>
           </CardHeader>
           <CardBody>
-            <Typography variant="h4">UI/UX Review Check</Typography>
+            <Typography className="md:text-xl font-semibold text-sm">UI/UX Review Check</Typography>
           </CardBody>
         </Card>
       </div>

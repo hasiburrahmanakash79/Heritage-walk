@@ -194,12 +194,12 @@ const Navbar = () => {
               <label tabIndex={0} className="btn btn-ghost">
                 <FaSearch />
               </label>
-              <ul
+              {/* <ul
                 tabIndex={0}
-                className="menu menu-compact dropdown-content z-50 p-4 shadow rounded-md bg-red-600 -ml-40"
+                className="menu menu-compact dropdown-content dropdown-left z-50 p-4 shadow rounded-md bg-red-600 -ml-40"
               >
-                <input type="text" className="input input-bordered" />
-              </ul>
+                <input type="text" className="input  input-bordered" />
+              </ul> */}
             </div>
           </div>
         </div>

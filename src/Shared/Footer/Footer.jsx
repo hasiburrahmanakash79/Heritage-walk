@@ -86,7 +86,7 @@ const Footer = () => {
         rigour. We are funded by grants, partners and our portfolio of venture
         businesses.
       </p>
-      <div className="bg-blue-gray-50 grid md:grid-cols-6 grid-cols-3 place-items-center p-4">
+      <div className="bg-blue-gray-50 grid md:grid-cols-6 grid-cols-2 place-items-center md:text-lg text-sm text-center p-4">
         <Link to="/" className="hover:underline p-3">
           Contact
         </Link>
