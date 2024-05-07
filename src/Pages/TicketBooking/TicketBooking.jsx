@@ -1,4 +1,4 @@
-import { data } from "autoprefixer";
+
 import { useState } from "react";
 
 const TicketBooking = () => {
