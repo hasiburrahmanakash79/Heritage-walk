@@ -3,6 +3,7 @@ import Main from "../Layouts/Main";
 import Home from "../Pages/Home/Home";
 import About from "../Pages/About/About";
 import TicketBooking from "../Pages/TicketBooking/TicketBooking";
+import TravellerInformation from "../Pages/TravellerInfo/TravellerInformation";
 import UseCardDetails from "../components/UseCardDetails";
 
 const router = createBrowserRouter([
@@ -21,10 +22,15 @@ const router = createBrowserRouter([
       {
         path: "/booking",
         element: <TicketBooking />,
-      },{
+      },
+      {
         path: "/cardDetails",
-        element: <UseCardDetails/>
-      }
+        element: <UseCardDetails />,
+      },
+      {
+        path: "/traveller",
+        element: <TravellerInformation />,
+      },
     ],
   },
 ]);
