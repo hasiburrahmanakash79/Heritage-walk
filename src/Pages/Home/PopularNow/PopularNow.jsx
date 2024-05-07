@@ -65,17 +65,18 @@ const PopularNow = () => {
       title: "Lalbag Kella",
     },
   ];
+  
   return (
     <div>
       <div className="bg-gradient-to-r from-indigo-400 from-20% via-sky-700 via-50% to-red-500 to-90% md:p-10 p-3 text-white">
         <h1 className="md:text-4xl text-xl text-center font-semibold mb-7">
           Popular now
         </h1>
-        <div className="md:grid grid-cols-3 space-y-3 justify-center items-center gap-10">
+        <div className="md:grid grid-cols-3 space-y-5 md:space-y-0 justify-center items-center gap-10">
           {cardDetails.map((cards) => (
             <Card
               key={cards.id}
-              className="overflow-hidden md:-mb-3 text-center text-red-500 hover:shadow-xl"
+              className="overflow-hidden text-center text-red-500 hover:shadow-xl"
             >
               <CardHeader
                 floated={false}
@@ -101,11 +102,11 @@ const PopularNow = () => {
           ))}
         </div>
       </div>
-      <div className="md:grid grid-cols-3 justify-center space-y-5 items-center gap-10 md:p-10 p-3 mt-5">
+      <div className="md:grid grid-cols-3 justify-center space-y-5 md:space-y-0 items-center gap-10 md:p-10 p-3 mt-5">
       {popularCardDetails.map((cards) => (
             <Card
               key={cards.id}
-              className="overflow-hidden md:-mb-3 text-center text-red-500 hover:shadow-xl"
+              className="overflow-hidden text-center text-red-500 hover:shadow-xl"
             >
               <CardHeader
                 floated={false}

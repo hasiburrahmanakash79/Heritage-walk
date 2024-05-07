@@ -17,7 +17,6 @@ const HomeCards = () => {
             <Traveller/>
             <Hotels/>
             <Information/>
-
             <Subscribtion/>
         </div>
     );
