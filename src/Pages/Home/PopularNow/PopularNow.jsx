@@ -4,6 +4,7 @@ import {
   CardBody,
   Typography,
 } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
 
 const PopularNow = () => {
   const cardDetails = [
@@ -65,7 +66,7 @@ const PopularNow = () => {
       title: "Lalbag Kella",
     },
   ];
-  
+
   return (
     <div>
       <div className="bg-gradient-to-r from-indigo-400 from-20% via-sky-700 via-50% to-red-500 to-90% md:p-10 p-3 text-white">
@@ -85,7 +86,6 @@ const PopularNow = () => {
                 className="m-0 rounded-none"
               >
                 <div className="relative h-44 overflow-hidden">
-                  {/* Set a fixed height for the image container */}
                   <img
                     src={cards.image}
                     alt="UI/UX Review Check"
@@ -115,7 +115,6 @@ const PopularNow = () => {
                 className="m-0 rounded-none"
               >
                 <div className="relative h-44 overflow-hidden">
-                  {/* Set a fixed height for the image container */}
                   <img
                     src={cards.image}
                     alt="UI/UX Review Check"
@@ -124,9 +123,9 @@ const PopularNow = () => {
                 </div>
               </CardHeader>
               <CardBody>
-                <Typography className="md:text-xl font-semibold text-sm">
+                <Link to="/cardDetails" className="md:text-xl font-semibold text-sm">
                   {cards.title}
-                </Typography>
+                </Link>
               </CardBody>
             </Card>
           ))}
