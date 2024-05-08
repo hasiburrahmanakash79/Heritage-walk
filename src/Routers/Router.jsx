@@ -6,6 +6,7 @@ import TicketBooking from "../Pages/TicketBooking/TicketBooking";
 import TravellerInformation from "../Pages/TravellerInfo/TravellerInformation";
 import UseCardDetails from "../components/UseCardDetails";
 import Accommodation from "../Pages/Accommodation/Accommodation";
+import Contact from "../Pages/Contact/Contact";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/accommodation",
         element: <Accommodation />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
     ],
   },
