@@ -81,8 +81,8 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <Link className="hover:underline font-semibold" to="/thing">
-          Things to do
+        <Link className="hover:underline font-semibold" to="/traveller">
+          Traveller Information
         </Link>
       </li>
       <li>

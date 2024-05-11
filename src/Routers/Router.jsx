@@ -7,6 +7,8 @@ import TravellerInformation from "../Pages/TravellerInfo/TravellerInformation";
 import UseCardDetails from "../components/UseCardDetails";
 import Accommodation from "../Pages/Accommodation/Accommodation";
 import Contact from "../Pages/Contact/Contact";
+import Blog from "../Pages/Blogs/Blog/Blog";
+import BlogDetails from "../Pages/Blogs/BlogDetails/BlogDetails";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +42,14 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/blogs",
+        element: <Blog />,
+      },
+      {
+        path: "/blogDetails/:id",
+        element: <BlogDetails />,
       },
     ],
   },
