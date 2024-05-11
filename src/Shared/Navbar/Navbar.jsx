@@ -86,11 +86,6 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <Link className="hover:underline font-semibold" to="/traveller">
-          Traveller Information
-        </Link>
-      </li>
-      <li>
         <Link className="hover:underline font-semibold" to="/accommodation">
           Accommodation
         </Link>
@@ -98,6 +93,11 @@ const Navbar = () => {
       <li>
         <Link className="hover:underline font-semibold" to="/contact">
           Contact
+        </Link>
+      </li>
+      <li>
+        <Link className="hover:underline font-semibold" to="/blogs">
+          Blogs
         </Link>
       </li>
     </>
