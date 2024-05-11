@@ -10,6 +10,7 @@ const TravellerInformation = () => {
           </h2>
         </div>
       </div>
+      <div className="mx-auto container"></div>
     </div>
   );
 };
