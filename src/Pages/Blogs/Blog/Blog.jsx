@@ -1,5 +1,5 @@
 import { Card, CardHeader } from "@material-tailwind/react";
-import { FaEllipsisVertical } from "react-icons/fa6";
+import { FaCommentDots, FaEllipsisVertical } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const Blog = () => {
@@ -14,6 +14,7 @@ const Blog = () => {
       title: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda atque tempora hic deleniti nulla delectus reprehenderit quas recusandae dicta harum a aperiam, odio iure maxime amet voluptas vel officia velit, obcaecati eveniet nihil! Aut facere consectetur tempora porro voluptatum quas beatae est perspiciatis molestias, ipsum eum blanditiis quam dolorem eos. Inventore vitae, nam rerum excepturi cumque possimus, odio quasi autem quisquam similique laudantium dolore quidem! Dignissimos distinctio culpa exercitationem assumenda! Consequuntur tempora corrupti, dolorem vel autem ducimus voluptatem! Doloremque, saepe quo commodi dolorum placeat totam assumenda. Numquam adipisci nostrum placeat, itaque quisquam rem earum. Dolorum rem accusamus tempora corrupti ullam.",
+      views: 100
     },
     {
       id: 2,
@@ -25,6 +26,7 @@ const Blog = () => {
       title: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda atque tempora hic deleniti nulla delectus reprehenderit quas recusandae dicta harum a aperiam, odio iure maxime amet voluptas vel officia velit, obcaecati eveniet nihil! Aut facere consectetur tempora porro voluptatum quas beatae est perspiciatis molestias, ipsum eum blanditiis quam dolorem eos. Inventore vitae, nam rerum excepturi cumque possimus, odio quasi autem quisquam similique laudantium dolore quidem! Dignissimos distinctio culpa exercitationem assumenda! Consequuntur tempora corrupti, dolorem vel autem ducimus voluptatem! Doloremque, saepe quo commodi dolorum placeat totam assumenda. Numquam adipisci nostrum placeat, itaque quisquam rem earum. Dolorum rem accusamus tempora corrupti ullam.",
+        views: 100
     },
     {
       id: 3,
@@ -36,6 +38,7 @@ const Blog = () => {
       title: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda atque tempora hic deleniti nulla delectus reprehenderit quas recusandae dicta harum a aperiam, odio iure maxime amet voluptas vel officia velit, obcaecati eveniet nihil! Aut facere consectetur tempora porro voluptatum quas beatae est perspiciatis molestias, ipsum eum blanditiis quam dolorem eos. Inventore vitae, nam rerum excepturi cumque possimus, odio quasi autem quisquam similique laudantium dolore quidem! Dignissimos distinctio culpa exercitationem assumenda! Consequuntur tempora corrupti, dolorem vel autem ducimus voluptatem! Doloremque, saepe quo commodi dolorum placeat totam assumenda. Numquam adipisci nostrum placeat, itaque quisquam rem earum. Dolorum rem accusamus tempora corrupti ullam.",
+        views: 100
     },
   ];
 
@@ -89,10 +92,20 @@ const Blog = () => {
             <div>
               <span>
                 {card.details.slice(0, 100)}.....{" "}
-                <Link to={`/blogDetails/${card.id}`} className="text-blue-700">
+                <Link to={`/blogDetails/${card.id}`} className="text-blue-700 hover:underline">
                   Read more
                 </Link>
               </span>
+            </div>
+            <div className="divider"></div>
+            <div className="flex justify-between items-center">
+              <div>
+                <h1>{card.views} Views</h1>
+              </div>
+              <div className="flex items-center gap-2">
+                <p>7</p>
+                <FaCommentDots/>
+              </div>
             </div>
           </Card>
         ))}
