@@ -78,9 +78,9 @@ const BlogDetails = () => {
   ];
   return (
     <div className="my-10 container mx-auto">
-      <div className="grid grid-cols-3 gap-5">
+      <div className="md:grid grid-cols-3 gap-5 p-3">
         <div className="col-span-2">
-          <h1 className="text-4xl font-bold">
+          <h1 className="md:text-4xl text-xl font-bold">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
             sit?
           </h1>
@@ -103,7 +103,7 @@ const BlogDetails = () => {
             className="my-4"
             alt=""
           />
-          <p>
+          <p className="text-balance text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
             dolorum omnis sed accusamus optio voluptatum similique libero
             suscipit, voluptates nulla eius repudiandae animi quam obcaecati
@@ -121,7 +121,8 @@ const BlogDetails = () => {
             doloribus nesciunt similique. Maxime ipsa unde qui sunt.
           </p>
         </div>
-        <div className="col-span-1 px-5">
+        <div className="col-span-1 md:px-5 md:mt-0 mt-7">
+          <h3 className="text-xl font-semibold my-3">Releted blogs</h3>
           <div className="space-y-5 items-center container mx-auto gap-10">
             {cardDetails.map((card) => (
               <Card key={card.id} className="overflow-hidden hover:shadow-xl">
@@ -142,7 +143,7 @@ const BlogDetails = () => {
                 <div className="p-3">
                   <Link
                     to="/"
-                    className="md:text-xl text-black font-semibold text-sm"
+                    className="md:text-xl text-black font-semibold  text-sm"
                   >
                     {card.title.slice(0, 30)}...
                   </Link>

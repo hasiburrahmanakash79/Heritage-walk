@@ -51,7 +51,7 @@ const Blog = () => {
           </h2>
         </div>
       </div>
-      <div className="md:grid grid-cols-3 space-y-5 md:space-y-0 justify-center my-10 items-center container mx-auto gap-10">
+      <div className="md:grid grid-cols-3 p-3 space-y-5 md:space-y-0 justify-center my-10 items-center container mx-auto gap-10">
         {cardDetails.map((card) => (
           <Card key={card.id} className="overflow-hidden p-3 hover:shadow-xl">
             <CardHeader
