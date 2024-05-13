@@ -39,6 +39,42 @@ const BlogDetails = () => {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda atque tempora hic deleniti nulla delectus reprehenderit quas recusandae dicta harum a aperiam, odio iure maxime amet voluptas vel officia velit, obcaecati eveniet nihil! Aut facere consectetur tempora porro voluptatum quas beatae est perspiciatis molestias, ipsum eum blanditiis quam dolorem eos. Inventore vitae, nam rerum excepturi cumque possimus, odio quasi autem quisquam similique laudantium dolore quidem! Dignissimos distinctio culpa exercitationem assumenda! Consequuntur tempora corrupti, dolorem vel autem ducimus voluptatem! Doloremque, saepe quo commodi dolorum placeat totam assumenda. Numquam adipisci nostrum placeat, itaque quisquam rem earum. Dolorum rem accusamus tempora corrupti ullam.",
       views: 100,
     },
+    {
+        id: 4,
+        authorImage:
+          "https://headshots-inc.com/wp-content/uploads/2021/04/author-headshots.jpg",
+        authorName: "Solayman Khan",
+        image:
+          "https://en.khjasha.com/wp-content/uploads/2021/11/252030232_411541693889826_8674937139699603284_n-910x509.jpg",
+        title: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        details:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda atque tempora hic deleniti nulla delectus reprehenderit quas recusandae dicta harum a aperiam, odio iure maxime amet voluptas vel officia velit, obcaecati eveniet nihil! Aut facere consectetur tempora porro voluptatum quas beatae est perspiciatis molestias, ipsum eum blanditiis quam dolorem eos. Inventore vitae, nam rerum excepturi cumque possimus, odio quasi autem quisquam similique laudantium dolore quidem! Dignissimos distinctio culpa exercitationem assumenda! Consequuntur tempora corrupti, dolorem vel autem ducimus voluptatem! Doloremque, saepe quo commodi dolorum placeat totam assumenda. Numquam adipisci nostrum placeat, itaque quisquam rem earum. Dolorum rem accusamus tempora corrupti ullam.",
+        views: 100,
+      },
+      {
+        id: 5,
+        authorImage:
+          "https://headshots-inc.com/wp-content/uploads/2021/04/author-headshots.jpg",
+        authorName: "Solayman Khan",
+        image:
+          "https://elsjnuals.files.wordpress.com/2021/06/dhaka.jpg?w=800",
+        title: "Major Environmental Problems of the Dhaka Metropolis",
+        details:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda atque tempora hic deleniti nulla delectus reprehenderit quas recusandae dicta harum a aperiam, odio iure maxime amet voluptas vel officia velit, obcaecati eveniet nihil! Aut facere consectetur tempora porro voluptatum quas beatae est perspiciatis molestias, ipsum eum blanditiis quam dolorem eos. Inventore vitae, nam rerum excepturi cumque possimus, odio quasi autem quisquam similique laudantium dolore quidem! Dignissimos distinctio culpa exercitationem assumenda! Consequuntur tempora corrupti, dolorem vel autem ducimus voluptatem! Doloremque, saepe quo commodi dolorum placeat totam assumenda. Numquam adipisci nostrum placeat, itaque quisquam rem earum. Dolorum rem accusamus tempora corrupti ullam.",
+        views: 100,
+      },
+      {
+        id: 6,
+        authorImage:
+          "https://headshots-inc.com/wp-content/uploads/2021/04/author-headshots.jpg",
+        authorName: "Solayman Khan",
+        image:
+          "https://ecdn.dhakatribune.net/contents/cache/images/640x359x1/uploads/dten/2021/05/ed-1619830167432.gif",
+        title: "Govt urged to utilize Bangladeshi expatriates’ expertise in infrastructure projects",
+        details:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda atque tempora hic deleniti nulla delectus reprehenderit quas recusandae dicta harum a aperiam, odio iure maxime amet voluptas vel officia velit, obcaecati eveniet nihil! Aut facere consectetur tempora porro voluptatum quas beatae est perspiciatis molestias, ipsum eum blanditiis quam dolorem eos. Inventore vitae, nam rerum excepturi cumque possimus, odio quasi autem quisquam similique laudantium dolore quidem! Dignissimos distinctio culpa exercitationem assumenda! Consequuntur tempora corrupti, dolorem vel autem ducimus voluptatem! Doloremque, saepe quo commodi dolorum placeat totam assumenda. Numquam adipisci nostrum placeat, itaque quisquam rem earum. Dolorum rem accusamus tempora corrupti ullam.",
+        views: 100,
+      },
   ];
   return (
     <div className="my-10 container mx-auto">
@@ -63,7 +99,7 @@ const BlogDetails = () => {
             <p>02 August 2020</p>
           </div>
           <img
-            src="https://images.squarespace-cdn.com/content/v1/5876d8d6e3df28c4d83ae377/1485224208084-2QZTQMXNZGNF72C4MWMO/dhaka+new+market+rickshaws+2.jpg"
+            src="https://s2.dmcdn.net/v/ULcpR1ZNMVdCHBW5g/x1080"
             className="my-4"
             alt=""
           />
