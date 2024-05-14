@@ -1,5 +1,6 @@
 import AboutSlider from "./AboutSlider";
 import Team from "./Team";
+import Testimonial from "./Testimonial";
 
 const About = () => {
   return (
@@ -50,8 +51,12 @@ const About = () => {
         <div className="md:w-9/12 mx-auto">
           <AboutSlider />
         </div>
+        
         <div className="md:w-9/12 mx-auto">
           <Team />
+        </div>
+        <div className="md:w-9/12 mx-auto">
+          <Testimonial />
         </div>
       </div>
     </div>
