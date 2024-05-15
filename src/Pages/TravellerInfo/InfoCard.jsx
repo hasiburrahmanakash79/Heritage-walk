@@ -30,47 +30,20 @@ const InfoCard = () => {
       views: 100,
     },
     {
-      id: 3,
-      authorImage:
-        "https://headshots-inc.com/wp-content/uploads/2021/04/author-headshots.jpg",
-      authorName: "Solayman Khan",
+      id: 4,
       image:
-        "https://media.istockphoto.com/id/1418012316/photo/tea-garden.jpg?s=612x612&w=0&k=20&c=yk7d_zIIoDISNQAO_yFHtj_QQY7xCpVY8Bg33CD28hY=",
-      title: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda atque tempora hic deleniti nulla delectus reprehenderit quas recusandae dicta harum a aperiam, odio iure maxime amet voluptas vel officia velit, obcaecati eveniet nihil! Aut facere consectetur tempora porro voluptatum quas beatae est perspiciatis molestias, ipsum eum blanditiis quam dolorem eos. Inventore vitae, nam rerum excepturi cumque possimus, odio quasi autem quisquam similique laudantium dolore quidem! Dignissimos distinctio culpa exercitationem assumenda! Consequuntur tempora corrupti, dolorem vel autem ducimus voluptatem! Doloremque, saepe quo commodi dolorum placeat totam assumenda. Numquam adipisci nostrum placeat, itaque quisquam rem earum. Dolorum rem accusamus tempora corrupti ullam.",
-      views: 100,
-    },
-    {
-      id: 3,
-      authorImage:
-        "https://headshots-inc.com/wp-content/uploads/2021/04/author-headshots.jpg",
-      authorName: "Solayman Khan",
-      image:
-        "https://www.bhmpics.com/downloads/bangladesh-nature/1.feat_30d48d6e-7b84-4dfe-bf22-6306f8a2d403.jpg",
-      title: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda atque tempora hic deleniti nulla delectus reprehenderit quas recusandae dicta harum a aperiam, odio iure maxime amet voluptas vel officia velit, obcaecati eveniet nihil! Aut facere consectetur tempora porro voluptatum quas beatae est perspiciatis molestias, ipsum eum blanditiis quam dolorem eos. Inventore vitae, nam rerum excepturi cumque possimus, odio quasi autem quisquam similique laudantium dolore quidem! Dignissimos distinctio culpa exercitationem assumenda! Consequuntur tempora corrupti, dolorem vel autem ducimus voluptatem! Doloremque, saepe quo commodi dolorum placeat totam assumenda. Numquam adipisci nostrum placeat, itaque quisquam rem earum. Dolorum rem accusamus tempora corrupti ullam.",
-      views: 100,
-    },
-    {
-      id: 3,
-      authorImage:
-        "https://headshots-inc.com/wp-content/uploads/2021/04/author-headshots.jpg",
-      authorName: "Solayman Khan",
-      image:
-        "https://images.prothomalo.com/prothomalo-english%2F2023-04%2Fc9065616-4564-443f-b409-066dce650145%2FJatiya_Sangsad.webp?rect=0%2C111%2C800%2C420&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=&overlay_position=bottom&overlay_width_pct=1",
-      title: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "https://ecdn.dhakatribune.net/contents/cache/images/600x315x1/uploads/dten/2020/06/ride-sharing-obhai-zakir-1592750284918.jpg",
+      title: "Dhaka City Ride Partner",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda atque tempora hic deleniti nulla delectus reprehenderit quas recusandae dicta harum a aperiam, odio iure maxime amet voluptas vel officia velit, obcaecati eveniet nihil! Aut facere consectetur tempora porro voluptatum quas beatae est perspiciatis molestias, ipsum eum blanditiis quam dolorem eos. Inventore vitae, nam rerum excepturi cumque possimus, odio quasi autem quisquam similique laudantium dolore quidem! Dignissimos distinctio culpa exercitationem assumenda! Consequuntur tempora corrupti, dolorem vel autem ducimus voluptatem! Doloremque, saepe quo commodi dolorum placeat totam assumenda. Numquam adipisci nostrum placeat, itaque quisquam rem earum. Dolorum rem accusamus tempora corrupti ullam.",
       views: 100,
     },
   ];
   return (
-    <div className="">
-      <div className="md:grid grid-cols-3 p-3 space-y-5 md:space-y-0  justify-center my-10 items-center gap-10">
+    <div className="md:grid grid-cols-3 gap-10 my-10">
+      <div className="md:grid grid-cols-2 p-3 space-y-5 md:space-y-0 col-span-2 justify-center  items-center gap-10">
         {cardDetails.map((card) => (
-          <Card key={card.id} className="overflow-hidden text-red-500 p-3 hover:shadow-xl">
+          <Card key={card.id} className="overflow-hidden border text-red-500 p-3 hover:shadow-xl">
             <CardHeader
               floated={false}
               shadow={false}
@@ -92,6 +65,9 @@ const InfoCard = () => {
             </div>
           </Card>
         ))}
+      </div>
+      <div className="col-span-1">
+        <h1 className="text-xl">Suggest Hotels</h1>
       </div>
     </div>
   );
