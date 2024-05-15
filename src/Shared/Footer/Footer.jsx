@@ -37,6 +37,26 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="bg-blue-gray-50 grid md:grid-cols-6 grid-cols-2 place-items-center text-sm text-center">
+        <Link to="/" className="hover:underline p-3">
+          Contact
+        </Link>
+        <Link to="/" className="hover:underline p-3">
+          About Us
+        </Link>
+        <Link to="/" className="hover:underline p-3">
+          Advertise with us
+        </Link>
+        <Link to="/" className="hover:underline p-3">
+          Sustainability
+        </Link>
+        <Link to="/" className="hover:underline p-3">
+          Accessibility
+        </Link>
+        <Link to="/" className="hover:underline p-3">
+          Terms & Conditions
+        </Link>
+      </div>
       <div className="py-7 px-3">
         <p className="text-center pb-3">Affiliates and Content Partners</p>
         <div className="grid md:grid-cols-6 grid-cols-3 place-items-center md:w-2/3 mx-auto gap-7">
@@ -81,26 +101,8 @@ const Footer = () => {
         rigour. We are funded by grants, partners and our portfolio of venture
         businesses.
       </p>
-      <div className="bg-blue-gray-50 grid md:grid-cols-6 grid-cols-2 place-items-center md:text-lg text-sm text-center p-4">
-        <Link to="/" className="hover:underline p-3">
-          Contact
-        </Link>
-        <Link to="/" className="hover:underline p-3">
-          About Us
-        </Link>
-        <Link to="/" className="hover:underline p-3">
-          Advertise with us
-        </Link>
-        <Link to="/" className="hover:underline p-3">
-          Sustainability
-        </Link>
-        <Link to="/" className="hover:underline p-3">
-          Accessibility
-        </Link>
-        <Link to="/" className="hover:underline p-3">
-          Terms & Conditions
-        </Link>
-      </div>
+      <p className="text-center pb-4">Copyright©2024 Heritage Walk Dhaka. All rights reserved.</p>
+      
     </div>
   );
 };
