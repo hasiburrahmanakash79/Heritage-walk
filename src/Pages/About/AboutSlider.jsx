@@ -8,6 +8,8 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 const AboutSlider = () => {
   return (
     <div>
+
+{/* https://caferati.me/demo/react-awesome-slider/captioned */}
       <Swiper
         spaceBetween={30}
         centeredSlides={true}

@@ -5,7 +5,7 @@ import Testimonial from "./Testimonial";
 const About = () => {
   return (
     <div>
-      <div className="bg-[url('https://i.ibb.co/6Z9KgFc/photo-1625216846235-c49ef7dd38c9-q-80-w-2938-auto.jpg')] bg-cover">
+      <div className="bg-[url('https://i.ibb.co/QpgkSWC/perlament.jpg')] bg-cover">
         <div className="p-5 py-16 bg-black/20 text-white">
           <h2 className="text-2xl md:text-6xl font-semibold uppercase md:ps-20 mt-14 md:mt-28">
             About Us
@@ -15,7 +15,7 @@ const About = () => {
       <div className="container mx-auto my-10">
         <div className="md:grid grid-cols-3 gap-10 mb-10">
           <div className="col-span-2">
-            <h1 className="text-2xl font-semibold mb-3">
+            <h1 className="md:text-5xl text-2xl font-semibold mb-3">
               About heritage-walk-dhaka.com
             </h1>
             <p>
@@ -48,15 +48,17 @@ const About = () => {
           </div>
         </div>
         {/* test card */}
-        <div className="md:w-9/12 mx-auto">
+        <div className="md:w-9/12 mx-auto p-3">
+        <div>
           <AboutSlider />
         </div>
         
-        <div className="md:w-9/12 mx-auto">
+        <div>
           <Team />
         </div>
-        <div className="md:w-9/12 mx-auto">
+        <div>
           <Testimonial />
+        </div>
         </div>
       </div>
     </div>

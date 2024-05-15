@@ -69,7 +69,7 @@ const Testimonial = () => {
   ];
   return (
     <div>
-      <h1 className="text-4xl font-bold text-center my-16">User Feedback</h1>
+      <h1 className="text-4xl font-bold text-center mt-16">User Feedback</h1>
       <div className="p-5 mb-20 -z-1">
         <Swiper
           spaceBetween={30}
@@ -83,7 +83,7 @@ const Testimonial = () => {
         >
           {testimonials?.map((testimonial, index) => (
             <SwiperSlide key={index}>
-              <div className="shadow-xl border card w-96 -z-10 h-80 mb-7">
+              <div className="shadow-xl border card w-96 -z-10 md:h-80">
                 <figure className="pt-5 pb-2">
                   <img
                     className="mx-auto -z-10"
@@ -98,7 +98,7 @@ const Testimonial = () => {
                 </figure>
                 <div className="items-center px-10 text-center -z-10">
                   <p className="mb-2 text-xl"> {testimonial.authorName}</p>
-                  <p className="text-sm"> {testimonial.title}</p>
+                  <p className="text-sm"> {testimonial.title.slice(0,150)}</p>
                   <div className="flex justify-center mb-5 -z-10"></div>
                 </div>
               </div>
