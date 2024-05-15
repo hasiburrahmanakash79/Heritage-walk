@@ -101,7 +101,7 @@ const Footer = () => {
         rigour. We are funded by grants, partners and our portfolio of venture
         businesses.
       </p>
-      <p className="text-center pb-4">Copyright©2024 Heritage Walk Dhaka. All rights reserved.</p>
+      <p className="text-center pb-4 text-sm">Copyright©2024 Heritage Walk Dhaka. All rights reserved.</p>
       
     </div>
   );

@@ -1,3 +1,4 @@
+import InfoCard from "./InfoCard";
 
 
 const TravellerInformation = () => {
@@ -10,7 +11,9 @@ const TravellerInformation = () => {
           </h2>
         </div>
       </div>
-      <div className="mx-auto container"></div>
+      <div className="mx-auto container">
+        <InfoCard/>
+      </div>
     </div>
   );
 };
