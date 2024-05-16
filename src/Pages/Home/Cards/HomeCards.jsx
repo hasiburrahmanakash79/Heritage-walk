@@ -17,7 +17,9 @@ const HomeCards = () => {
             <Traveller/>
             <Hotels/>
             <Information/>
+            <div className='md:p-10'>
             <Subscribtion/>
+            </div>
         </div>
     );
 };
