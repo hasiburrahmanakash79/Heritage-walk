@@ -28,11 +28,11 @@ const Footer = () => {
           <div>
             <div className="flex md:justify-end justify-center items-center gap-5">
               <h1 className="my-5">Follow Us: </h1>
-              <FaFacebook className="text-3xl hover:text-blue-700 " />
-              <FaInstagram className="text-3xl hover:text-pink-500" />
-              <FaYoutube className="text-3xl hover:text-red-600" />
-              <FaTwitter className="text-3xl hover:text-blue-700" />
-              <FaTelegram className="text-3xl hover:text-blue-700" />
+              <a href="#"><FaFacebook className="text-3xl hover:text-blue-700 " /></a>
+              <a href="#"><FaInstagram className="text-3xl hover:text-pink-500" /></a>
+              <a href="#"><FaYoutube className="text-3xl hover:text-red-600" /></a>
+              <a href="#"><FaTwitter className="text-3xl hover:text-blue-700" /></a>
+              <a href="#"><FaTelegram className="text-3xl hover:text-blue-700" /></a>
             </div>
           </div>
         </div>
