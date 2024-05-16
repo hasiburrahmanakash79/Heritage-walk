@@ -80,6 +80,7 @@ const Hotels = () => {
       views: 100,
     },
   ];
+  console.log(cardDetails);
   return (
     <div className="md:p-10">
       <h1 className="md:text-4xl text-xl font-bold mb-4">Hotels in Dhaka</h1>
