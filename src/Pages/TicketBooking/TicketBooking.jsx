@@ -92,7 +92,7 @@ const TicketBooking = () => {
             />
           </div>
         </div>
-        <div>
+        <div className="mb-10">
           <Subscribtion />
         </div>
       </div>
