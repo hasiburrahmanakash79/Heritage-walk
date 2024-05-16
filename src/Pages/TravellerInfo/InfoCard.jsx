@@ -1,4 +1,5 @@
 import { Card, CardHeader } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
 
 const InfoCard = () => {
   const cardDetails = [
@@ -58,10 +59,10 @@ const InfoCard = () => {
                 />
               </div>
             </CardHeader>
-            <div>
-              <h1 className="md:text-xl text-center p-3 hover:underline font-semibold text-sm">
+            <div className="mt-3 text-center">
+              <Link to={`/detailTravelInfo/${card.id}`} className="md:text-xl  hover:underline font-semibold text-sm">
                 {card.title}
-              </h1>
+              </Link>
             </div>
           </Card>
         ))}
