@@ -1,5 +1,5 @@
-
 import { useState } from "react";
+import Subscribtion from "../Home/Cards/Subscribtion";
 
 const TicketBooking = () => {
   const getFormattedDate = (date) => {
@@ -35,11 +35,13 @@ const TicketBooking = () => {
           </h2>
         </div>
       </div>
-      <div>
-        <div className="container mx-auto my-10 flex">
+      <div className="container mx-auto">
+        <div className=" my-10 flex">
           <div className="bg-blue-gray-50">
             <div className="bg-blue-700 p-3">
-            <h1 className="text-2xl text-center text-white font-bold">Lorem ipsum dolor sit amet, consectetur adipisicing.</h1>
+              <h1 className="text-2xl text-center text-white font-bold">
+                Lorem ipsum dolor sit amet, consectetur adipisicing.
+              </h1>
             </div>
             <div className="p-5">
               <div className="flex justify-between items-center gap-5">
@@ -67,17 +69,31 @@ const TicketBooking = () => {
               </div>
 
               <div className="flex items-center my-3 gap-3">
-              <label >Adult:</label><input type="number" className="p-2 w-24" placeholder="Adult"/>
-              <label>Children:</label><input type="number" className="p-2 w-24" placeholder="Children"/>
+                <label>Adult:</label>
+                <input type="number" className="p-2 w-24" placeholder="Adult" />
+                <label>Children:</label>
+                <input
+                  type="number"
+                  className="p-2 w-24"
+                  placeholder="Children"
+                />
               </div>
               <div className="">
-                <button className="bg-red-600 w-full mt-5 p-2 uppercase text-white font-semibold rounded">Search </button>
+                <button className="bg-red-600 w-full mt-5 p-2 uppercase text-white font-semibold rounded">
+                  Search{" "}
+                </button>
               </div>
             </div>
           </div>
           <div className="hidden md:flex">
-            <img src="https://i.ibb.co/vXbhV7c/Post-2022-May-Statecation-Le-Meridien-3.jpg" alt="" />
+            <img
+              src="https://i.ibb.co/vXbhV7c/Post-2022-May-Statecation-Le-Meridien-3.jpg"
+              alt=""
+            />
           </div>
+        </div>
+        <div>
+          <Subscribtion />
         </div>
       </div>
     </div>
