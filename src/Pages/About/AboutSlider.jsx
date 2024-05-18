@@ -7,17 +7,17 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const AboutSlider = () => {
   return (
-    <div>
+    <div className="my-36">
 
 {/* https://caferati.me/demo/react-awesome-slider/captioned */}
       <Swiper
-        spaceBetween={30}
+        spaceBetween={20}
         centeredSlides={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
-        navigation={true}
+        navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
