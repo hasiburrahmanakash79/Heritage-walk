@@ -33,6 +33,12 @@ const Accommodation = () => {
         'https://content.r9cdn.net/rimg/dimg/c9/06/8d4fe0d8-city-28030-164fcc85915.jpg?width=1200&height=630&xhint=1477&yhint=1081&crop=true',
       title: 'Lalbag Kella',
     },
+    {
+      id: 3,
+      image:
+        'https://content.r9cdn.net/rimg/dimg/c9/06/8d4fe0d8-city-28030-164fcc85915.jpg?width=1200&height=630&xhint=1477&yhint=1081&crop=true',
+      title: 'Lalbag Kella',
+    },
   ];
   
 
