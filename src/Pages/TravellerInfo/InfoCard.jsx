@@ -41,8 +41,8 @@ const InfoCard = () => {
     },
   ];
   return (
-    <div className="md:grid grid-cols-3 gap-10 my-10">
-      <div className="md:grid grid-cols-2 p-3 space-y-5 md:space-y-0 col-span-2 justify-center  items-center gap-10">
+    <div className="md:grid grid-cols-3 gap-10 my-10 p-3">
+      <div className="md:grid grid-cols-2 space-y-5 md:space-y-0 col-span-2 justify-center  items-center gap-10">
         {cardDetails.map((card) => (
           <Card key={card.id} className="overflow-hidden border text-red-500 p-3 hover:shadow-xl">
             <CardHeader
@@ -67,8 +67,8 @@ const InfoCard = () => {
           </Card>
         ))}
       </div>
-      <div className="col-span-1">
-        <h1 className="text-xl">Suggest Hotels</h1>
+      <div className="col-span-1 bg-blue-gray-50 p-3 rounded-xl">
+        <h1 className="text-2xl font-semibold text-red-500">Hotels__</h1>
       </div>
     </div>
   );
