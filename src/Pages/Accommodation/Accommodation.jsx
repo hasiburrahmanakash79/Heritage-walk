@@ -1,10 +1,8 @@
-import { useState } from 'react';
 import { Card, CardBody, CardHeader } from '@material-tailwind/react';
 import { Link } from 'react-router-dom';
-import Swal from 'sweetalert2';
 
 const Accommodation = () => {
-  const [cardDetails, setCardDetails] = useState([
+  const cardDetails = [
     {
       id: 1,
       image:
@@ -23,57 +21,20 @@ const Accommodation = () => {
         'https://content.r9cdn.net/rimg/dimg/c9/06/8d4fe0d8-city-28030-164fcc85915.jpg?width=1200&height=630&xhint=1477&yhint=1081&crop=true',
       title: 'Lalbag Kella',
     },
-  ]);
-
-  const handleDeleteUser = (id) => {
-    Swal.fire({
-      title: 'Are you sure?',
-      text: 'You won’t be able to remove this user!',
-      icon: 'warning',
-      showCancelButton: true,
-      confirmButtonColor: '#3085d6',
-      cancelButtonColor: '#d33',
-      confirmButtonText: 'Yes, delete it!',
-    }).then((result) => {
-      if (result.isConfirmed) {
-        // Perform deletion logic and update state
-        const updatedCards = cardDetails.filter((card) => card.id !== id);
-        setCardDetails(updatedCards);
-
-        // Display success message
-        Swal.fire('Deleted!', 'User has been deleted.', 'success');
-      }
-    });
-  };
-
-  const handleEditUser = (id) => {
-    // Find the card to edit based on ID
-    const cardToEdit = cardDetails.find((card) => card.id === id);
-
-    // Show a prompt to edit the card title
-    Swal.fire({
-      title: 'Edit Card Title',
-      input: 'text',
-      inputValue: cardToEdit.title,
-      showCancelButton: true,
-      confirmButtonText: 'Save',
-      cancelButtonText: 'Cancel',
-      inputValidator: (value) => {
-        if (!value) {
-          return 'Title cannot be empty';
-        }
-      },
-    }).then((result) => {
-      if (result.isConfirmed) {
-        // Update the card title and set the state
-        const updatedCards = cardDetails.map((card) =>
-          card.id === id ? { ...card, title: result.value } : card
-        );
-        setCardDetails(updatedCards);
-        Swal.fire('Saved!', 'Card title has been updated.', 'success');
-      }
-    });
-  };
+    {
+      id: 3,
+      image:
+        'https://content.r9cdn.net/rimg/dimg/c9/06/8d4fe0d8-city-28030-164fcc85915.jpg?width=1200&height=630&xhint=1477&yhint=1081&crop=true',
+      title: 'Lalbag Kella',
+    },
+    {
+      id: 3,
+      image:
+        'https://content.r9cdn.net/rimg/dimg/c9/06/8d4fe0d8-city-28030-164fcc85915.jpg?width=1200&height=630&xhint=1477&yhint=1081&crop=true',
+      title: 'Lalbag Kella',
+    },
+  ];
+  
 
   return (
     <div>
@@ -101,12 +62,6 @@ const Accommodation = () => {
               <Link to={`/cardDetails/${card.id}`} className="md:text-xl font-semibold text-sm">
                 {card.title}
               </Link>
-              <button onClick={() => handleDeleteUser(card.id)} className="text-white mx-3 bg-red-700 p-2 rounded">
-                Delete
-              </button>
-              <button onClick={() => handleEditUser(card.id)} className="text-white bg-blue-700 p-2 rounded">
-                Edit
-              </button>
             </CardBody>
           </Card>
         ))}
