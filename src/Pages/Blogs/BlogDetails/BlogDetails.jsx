@@ -104,78 +104,7 @@ const BlogDetails = () => {
             alt=""
           />
           <p className="text-balance text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-            dolorum omnis sed accusamus optio voluptatum similique libero
-            suscipit, voluptates nulla eius repudiandae animi quam obcaecati
-            odio molestias dignissimos porro consequatur cum, corrupti
-            distinctio recusandae doloremque. Suscipit officia quia quis optio
-            eaque ipsum nisi dolore sequi, hic reprehenderit tempora quos dicta
-            consequuntur eveniet laborum deserunt incidunt rerum pariatur?
-            Reprehenderit sint assumenda quibusdam? Dignissimos voluptatem
-            tempora nobis itaque assumenda. Nobis sapiente nisi, animi, pariatur
-            distinctio perferendis odit debitis corporis iste architecto enim
-            obcaecati sunt ipsam provident ratione, explicabo neque itaque ex
-            consequuntur recusandae error laborum nulla! In enim eligendi
-            voluptate. Cumque voluptates nemo necessitatibus labore quam,
-            mollitia esse neque, ullam sit eveniet voluptatem blanditiis
-            doloribus nesciunt similique. Maxime ipsa unde qui sunt. Lorem ipsum
-            dolor sit amet consectetur, adipisicing elit. In ipsum tenetur fugit
-            explicabo atque beatae porro, animi nulla qui eius tempore odit
-            sequi necessitatibus minima repellat iusto totam? Pariatur in quas
-            tenetur fugiat ratione. Ex adipisci officia voluptatum repellat
-            voluptas facere alias ad tempora beatae, quos temporibus quis. Quae
-            sed itaque est dolor, dolorem, minima ad iusto error ducimus natus
-            fugit facere sit. Cupiditate modi incidunt ullam, temporibus
-            consequuntur ut? Dolores voluptatum dolorem autem soluta
-            reprehenderit, aliquid illum praesentium culpa doloribus, saepe quod
-            recusandae quos ex beatae cum! Officia, quos placeat ratione nulla
-            sequi consequatur a quia omnis dolores quibusdam veniam illum id
-            voluptates sint! Dignissimos aliquid maxime nesciunt laudantium
-            reiciendis iusto animi quos voluptatum, ab quisquam optio rerum
-            asperiores repellendus obcaecati corrupti quasi ipsam quo tempora
-            sequi voluptas! Autem perspiciatis mollitia veritatis, sed,
-            consequuntur perferendis odit neque unde sunt, illum debitis ea
-            accusantium enim. Iusto, quaerat maxime, exercitationem consectetur
-            dicta adipisci, quam dolorum omnis porro amet veniam in ab! Error
-            fugit quis eligendi facere quos. Quos expedita sapiente repellat quo
-            sed, eveniet porro corporis eum quaerat modi, veniam nam neque,
-            tenetur repellendus quam animi hic dignissimos ipsum molestiae a
-            ratione necessitatibus. Nulla fugiat, maiores alias nobis assumenda
-            repellendus inventore. Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Omnis alias harum voluptatem, vero incidunt
-            sapiente voluptatum. Velit dolorem illo at doloremque accusamus ab
-            magnam aperiam tempora eius necessitatibus sunt debitis quaerat esse
-            voluptate magni, eveniet beatae voluptatibus rem adipisci nihil
-            quisquam rerum officiis! Amet iure vel repudiandae excepturi
-            nesciunt ab recusandae soluta velit! Error hic soluta amet rem nisi
-            voluptatibus, qui architecto vel facilis doloribus. Repellat, vel
-            non quos ipsum autem quasi quibusdam. Eligendi molestiae numquam at
-            architecto atque laudantium ratione non? Magnam dolorum dolorem
-            corporis optio magni error tenetur, iusto consequatur, cupiditate
-            assumenda recusandae voluptates eveniet nam ipsa nisi aperiam quae
-            expedita exercitationem ea eius placeat. At facere consectetur
-            distinctio, ea qui et suscipit. Officia error nisi consequatur
-            delectus nesciunt cumque, facilis qui commodi dolore unde cum natus
-            corporis molestiae alias debitis aliquid dolorum assumenda ea
-            dolorem quibusdam? Nostrum recusandae obcaecati dolor placeat porro
-            animi, est exercitationem, itaque odit ut quis. Aperiam unde
-            distinctio ducimus cumque expedita possimus consequuntur vel eum
-            consectetur, dolorum debitis praesentium ipsam doloribus illum autem
-            aliquam nemo dicta alias. Quam, distinctio laborum veniam, ab facere
-            blanditiis et quae tenetur quia atque assumenda necessitatibus quod
-            earum reprehenderit ullam accusamus provident similique commodi ipsa
-            a voluptas iure neque? Recusandae eum blanditiis, quibusdam
-            praesentium rem sit quidem officiis in eius odio, expedita nobis
-            nesciunt modi deserunt a velit, ullam sed sint dolorem. Corporis
-            accusamus harum dolores autem, iste quam cumque doloribus fugiat
-            fugit error aut quos officia quo vitae repellat, consequatur rem
-            eaque similique. Ipsum harum voluptas inventore facere rerum
-            repudiandae quam obcaecati. Illum cum quod dolores commodi saepe
-            distinctio sapiente excepturi minus voluptatibus sunt. Illum
-            assumenda nam id numquam eaque corporis porro ab hic ut et ducimus
-            perspiciatis similique iure ex ea possimus, vel molestias, corrupti
-            deleniti quos repudiandae? Odit minus eius veritatis provident eos
-            animi ad?
+          In literary theory, a text is any object Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos recusandae velit asperiores sit amet molestiae consectetur reprehenderit fugiat iusto cumque minima modi ipsum minus rem vel voluptatum magni temporibus inventore accusamus mollitia incidunt nulla explicabo, nisi cupiditate. Magni, eligendi libero possimus ab nesciunt sequi aut, reiciendis laboriosam maiores quisquam, dignissimos magnam quo natus architecto aliquid. Facilis corrupti repellendus ad ducimus ipsum laborum alias vero consequuntur, quidem voluptatibus reprehenderit veniam dolorem? Atque, dignissimos enim error, qui ex corporis dolore animi, beatae mollitia eaque impedit omnis optio. Sed quisquam sint quo hic ex quasi, amet consectetur facilis sit numquam magnam, aspernatur, explicabo eum nulla quae perferendis cum nostrum. Nihil blanditiis autem illum temporibus quis, molestias nulla officia, ipsam placeat libero reiciendis animi illo, repellendus molestiae odit quae eum magnam esse! Alias quae, reiciendis asperiores velit, modi deserunt nisi assumenda similique recusandae voluptatum sed. Tempore asperiores, doloribus voluptas at iure sapiente et voluptatum alias delectus perferendis expedita est minus. Qui obcaecati, in, ut ducimus, quod architecto pariatur ipsa sint hic illum officiis blanditiis debitis aliquam eligendi quidem perferendis esse repellat tempora consectetur harum? Impedit adipisci nesciunt distinctio facere aliquam labore, reiciendis ipsa consequatur nemo eveniet voluptas quo ad nam dolores voluptatum vero architecto?
           </p>
         </div>
         <div className="col-span-1 md:px-5 md:mt-0 mt-7">
