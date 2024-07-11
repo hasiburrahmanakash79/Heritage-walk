@@ -27,17 +27,7 @@ const About = () => {
               quia, ipsam facilis consectetur? Id, nobis corporis quisquam
               dignissimos doloribus tenetur. Deleniti nihil nulla nobis fuga
               odit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Obcaecati quos totam, impedit voluptates omnis voluptas non vitae
-              consequatur nobis tempore repudiandae cum rerum magni architecto
-              ipsa dolorum, adipisci rem? Numquam, officia delectus deleniti,
-              cum sed perferendis architecto corporis voluptas in, iusto facere.
-              Sit unde temporibus aliquam autem placeat sequi vel? Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Ex quo, culpa magnam
-              corporis delectus molestias sapiente nulla dolorem. Non veniam
-              magnam tempore libero sed accusantium harum rem voluptate quia,
-              vero ut rerum eaque autem! Totam assumenda dolorem minus, iure at
-              ad praesentium illum laudantium, eaque nostrum quae tenetur
-              veritatis rem?
+              Obcaecati quos totam, 
             </p>
           </div>
           <div className="col-span-1">
