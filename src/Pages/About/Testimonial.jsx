@@ -100,6 +100,9 @@ const Testimonial = () => {
                   <p className="mb-2 text-xl"> {testimonial.authorName}</p>
                   <p className="text-sm"> {testimonial.title.slice(0,150)}</p>
                   <div className="flex justify-center mb-5 -z-10"></div>
+                  <p className="mb-2 text-xl"> {testimonial.authorName}</p>
+                  <p className="text-sm"> {testimonial.title.slice(0,150)}</p>
+                  <div className="flex justify-center mb-5 -z-10"></div>
                 </div>
               </div>
             </SwiperSlide>
